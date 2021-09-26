@@ -13,6 +13,7 @@ body {
     left: 0;
     right: 0;
     background: rgb(3, 3, 65);
+    z-index: 2;
 }
 
 . div wrapper {
@@ -213,6 +214,36 @@ body {
     margin: 4px 2px;
     cursor: pointer;
   }
+#footer {
+	display: flex;
+	width: 100%;
+	padding: .5rem 0;
+    background: rgb(3, 3, 65);
+}
+#footer .container {
+	flex-direction: row;
+}
+
+#footer .copyright {
+	width: 100%;
+	float: left;
+	color: white;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+#footer .contact {
+	width: 100%;
+	float: left;
+}
+
+#footer .contact a {
+	color: white;
+	font-size: 12px;
+	font-weight: 500;
+	float: right;
+}
+
 .clear{
     clear: both;
 }
